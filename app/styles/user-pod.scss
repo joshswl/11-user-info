@@ -1,0 +1,21 @@
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.user-pod {
+  height: 10rem;
+  background: blue;
+
+  &__pic {
+
+  }
+
+  img {
+
+  }
+}
