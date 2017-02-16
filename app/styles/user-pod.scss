@@ -33,13 +33,9 @@
 
 .space {
   display: flex;
-
+  font-size: 10px;
 
   &__icon {
     padding: 0.5rem;
-  }
-
-  &__txt {
-    font-size: 10px;
   }
 }
