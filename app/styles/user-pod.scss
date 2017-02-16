@@ -26,6 +26,8 @@
 }
 
 .space {
+  display: flex;
+  justify-content: center;
 
   > * + * {
     border-top: $s-border;
@@ -36,7 +38,6 @@
   }
 
   &__txt {
-    padding-top: 0.5rem;
     font-size: 10px;
   }
 }
