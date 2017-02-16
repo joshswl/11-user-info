@@ -6,6 +6,12 @@
 
 }
 
+.info {
+  > * + * {
+    border-top: $s-border;
+  }
+}
+
 .hero {
   position: relative;
   background: $c-hero;
@@ -28,9 +34,6 @@
 .space {
   display: flex;
 
-  > * + * {
-    border-top: $s-border;
-  }
 
   &__icon {
     padding: 0.5rem;
