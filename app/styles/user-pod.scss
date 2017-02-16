@@ -1,21 +1,41 @@
 .section {
-  padding: 1rem;
+
 }
 
 .container {
-  max-width: 65rem;
-  margin: 0 auto;
+
 }
 
-.user-pod {
-  height: 10rem;
-  background: blue;
+.hero {
+  position: relative;
+  background: $c-hero;
+  display: flex;
+  justify-content: center;
+}
 
-  &__pic {
+.back-bttn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.avatar__pic {
+  margin: 1.5rem 0rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.space {
+
+  > * + * {
+    border-top: $s-border;
+  }
+
+  &__icon {
 
   }
 
-  img {
+  &__txt {
 
   }
 }
