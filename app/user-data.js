@@ -3,16 +3,15 @@ export default
   "results": [
     {
       "gender": "female",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/51.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
+      },
       "name": {
         "title": "ms",
         "first": "sedef",
         "last": "eliçin"
-      },
-      "location": {
-        "street": "6262 fatih sultan mehmet cd",
-        "city": "çanakkale",
-        "state": "bursa",
-        "postcode": 35107
       },
       "email": "sedef.eliçin@example.com",
       "login": {
@@ -23,6 +22,12 @@ export default
         "sha1": "a908570dd1a50a5767ca0b5b09ffdf1707ac0fcf",
         "sha256": "0d9b782624aa8e826c25161f9940550551e614f6262e4e712aff1fb71fa07e04"
       },
+      "location": {
+        "street": "6262 fatih sultan mehmet cd",
+        "city": "çanakkale",
+        "state": "bursa",
+        "postcode": 35107
+      },
       "dob": "1983-01-04 16:03:31",
       "registered": "2004-09-29 23:35:28",
       "phone": "(809)-057-1637",
@@ -30,11 +35,6 @@ export default
       "id": {
         "name": "",
         "value": null
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/51.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
       },
       "nat": "TR"
     }
