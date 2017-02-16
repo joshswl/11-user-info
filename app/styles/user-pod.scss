@@ -27,14 +27,13 @@
 
 .space {
   display: flex;
-  justify-content: center;
 
   > * + * {
     border-top: $s-border;
   }
 
   &__icon {
-
+    padding: 0.5rem;
   }
 
   &__txt {
