@@ -1,0 +1,41 @@
+.section {
+
+}
+
+.container {
+
+}
+
+.info {
+  > * + * {
+    border-top: $s-border;
+  }
+}
+
+.hero {
+  position: relative;
+  background: $c-hero;
+  display: flex;
+  justify-content: center;
+}
+
+.back-bttn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.avatar__pic {
+  margin: 1.5rem 0rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.space {
+  display: flex;
+  font-size: 10px;
+
+  &__icon {
+    padding: 0.5rem;
+  }
+}
